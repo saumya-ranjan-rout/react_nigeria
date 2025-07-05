@@ -1,0 +1,22 @@
+{
+  "database": {
+    "host": "localhost",
+    "username": "root",
+    "password": "",
+    "port": 3306,
+    "databaseName": "nigeria2024"
+  },
+  "server": {
+    "port": 4000,
+    "host": "192.168.29.60"
+  },
+  "auth": {
+    "secretKey": "nigeria@1234"
+  },
+  "storage": {
+    "company": "../public/company/"
+  },
+  "dateUtil": {
+    "timezone": "Africa/Lagos"
+  }
+}

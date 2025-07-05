@@ -1,0 +1,22 @@
+{
+  "database": {
+    "host": "localhost",
+    "username": "root",
+    "password": "3sd@123",
+    "port": 3306,
+    "databaseName": "u728953441_ke"
+  },
+  "server": {
+    "port": 4000,
+    "host": "192.168.29.7"
+  },
+  "auth": {
+    "secretKey": "Manoj@1234"
+  },
+  "storage": {
+    "company": "../company/"
+  },
+  "dateUtil": {
+    "timezone": "Africa/Lagos"
+  }
+}

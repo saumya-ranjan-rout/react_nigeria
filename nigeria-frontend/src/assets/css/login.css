@@ -1,0 +1,504 @@
+/**********************************************Nigeria Login Page***********************************************************/
+.login-page {
+  background: url('https://3sd.website/eta/uploads/eta-2.jpg') no-repeat center center fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox {
+  height: 330px;
+  top: 230px;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  min-height: 200px;
+  background-color: rgb( 33, 41, 66 );
+  border-radius: 9px;
+  padding: 40px;
+  box-sizing: border-box;
+  border-top: 10px solid #3fadd4;
+  border-bottom: 10px solid #7ab63b;
+
+
+  display: flex;
+flex-direction: column;
+
+}
+
+.btn1 {
+  border: 0;
+  background: #b80053;
+  color: #dfdeee;
+  border-radius: 100px;
+  width: 340px;
+  height: 49px;
+  font-size: 16px;
+  position: absolute;
+  top: 60%;
+  left: 8%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn1:hover {
+   
+  background: #5832dd; 
+
+}
+
+.input-style::placeholder {
+  color: #fff; /* Replace 'yourPlaceholderColor' with the desired color */
+}
+
+/**********************************************Nigeria Login Page***********************************************************/
+
+/**********************************************Extra Codes for styling***********************************************************/
+
+.textgreen{
+  color: green;
+  font-weight: bold;
+  
+}
+
+.textgreen1{
+  color: green;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.textred{
+  color: red;
+  font-weight: bold;
+}
+
+.textwhite{
+  color: white;
+  font-size: 12px;
+  
+}
+
+.textblack{
+  color: #000;
+}
+
+.textblack1{
+  color: #000;
+  font-weight: 200;
+  margin-top: -25px;
+}
+
+.textblue{
+  color: #007bff;
+  font-weight: bold;
+}
+
+.bgsuccess{
+  background-color: #16D39A;
+  color: #FFFFFF;
+  font-weight: 400;
+  display: inline-block;
+    padding: 0.35em 0.4em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.bgdanger{
+  background-color: #FF7588;
+  color: #FFFFFF;
+  font-weight: 400;
+  display: inline-block;
+    padding: 0.35em 0.4em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.bgwarning{
+  background-color: #FFA87D;
+  color: #FFFFFF;
+  font-weight: 400;
+  display: inline-block;
+    padding: 0.35em 0.4em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+
+/*************************Extra Codes for styling************************************/
+/*************************Attrition Dashboard****************************************/
+
+.cardatt {
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardatt-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardatt-body {
+  /* padding: 1.5rem; */
+  padding-left:1rem ;
+}
+
+.cardatt-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.cardatt-text {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.cardatt-1 {
+  border: 2px solid #a86008; 
+}
+
+.cardatt-2 {
+  border: 2px solid #4caf50; 
+}
+
+.cardatt-3 {
+  border: 2px solid #ff5722;
+}
+
+.cardatt-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+.cardatt-header1 {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #fde8e4 !important;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  color: #000;
+  font-weight: bold;
+}
+
+.cardatt-header2 {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #fef4e4 !important;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  color: #000;
+  font-weight: bold;
+}
+
+.cardatt-header3 {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #dff0fa !important;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  color: #000;
+  font-weight: bold;
+}
+
+.cardatt-header4 {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #daf4f0 !important;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  color: #000;
+  font-weight: bold;
+}
+
+
+.border-class {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.border-class th, .border-class td {
+  border: 1px solid black;
+  padding: 2px;
+  text-align: left;
+}
+
+.border-class th {
+  background-color: #f2f2f2;
+}
+
+.bg-blue-subtle {
+  background-color: #00bcd4 !important;
+}
+
+.bg-green-subtle {
+  background-color: #009688 !important;
+}
+
+/*************************Attrition Dashboard****************************************/
+
+/*table animation*/
+
+#myDIV {
+  
+  animation: mymove 15s ;
+}
+
+
+@keyframes mymove {
+    22% {
+        transform: rotate(360deg);
+    }
+    44% {
+        transform: rotate(0deg);
+    }
+}
+
+.single-expense .icon-container {
+  font-size: 45px;
+  position: relative;
+  height: 45px;
+  top: -10px;
+  margin-right: 7px;
+}
+.single-expense {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+  padding: 8px 20px 8px 10px;
+}
+.bg-light-info {
+  background-color: #7caa3b6e!important;
+  border-color: #7caa3b;
+  color: #7caa3b;
+}
+.mb-2, .my-2 {
+  margin-bottom: 0.5rem!important;
+}
+
+.d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+.font-15 {
+  font-size: 15px !important;
+}
+.strong {
+  font-weight: 600 !important;
+}
+.mb-1, .my-1 {
+  margin-bottom: 0.25rem!important;
+}
+
+.font-13 {
+  font-size: 13px !important;
+}
+.mb-0, .my-0 {
+  margin-bottom: 0!important;
+}
+.stronger {
+  font-weight: 700 !important;
+}
+
+.bg-light-warning {
+  background-color: #c1005459!important;
+  border-color: #c10054;
+  color: #c10054;
+}
+.bg-light-primary {
+  background-color: #0381db8c!important;
+  border-color: #0381db!important;
+  color: #0381db !important;
+}
+
+
+.circle-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-bottom: -50px;
+}
+
+.icon {
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+  top: 25px;
+  left: 25px;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  display: block;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  padding: 2.5px;
+  background-clip: content-box;
+  animation: spin 10s linear infinite;
+}
+
+.circle-wrapper:active .circle {
+  animation: spin 2s linear infinite;
+}
+
+.success {
+  background-color: #008ad9;
+  border: 2.5px dashed #008ad9;
+}
+
+.error {
+  background-color: #CA0B00;
+  border: 2.5px dashed #CA0B00;
+}
+
+.warning {
+  background-color: #9bdc28;
+  border: 2.5px dashed #426406;
+}
+
+@keyframes spin { 
+  100% { 
+    transform: rotateZ(360deg);
+  }
+}
+
+.text-effect{
+  color: red;
+  background: linear-gradient(to right,#ed0b35 0, #fff 10%,#e71024 20%);
+  font-family: 'Domine', serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  background-position: 0;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+  -moz-text-fill-color:transparent;
+  
+  animation: shine 3s infinite linear forwards;
+}
+@keyframes shine{
+  0%{ background-position: 0; }
+  60%{ background-position: 900px; }
+  100%{ background-position: 900px; }
+}
+@media only screen and (max-width: 990px){
+  .text-effect{ font-size: 70px; }
+}
+@media only screen and (max-width: 767px){
+  .text-effect{ font-size: 55px; }
+}
+@media only screen and (max-width: 576px){
+  .text-effect{ font-size: 35px; }
+}
+
+.card-stats .card-body .numbers {
+  text-align: left !important;
+  
+}
+
+.description-block>.description-text {
+  text-transform: uppercase;
+  margin-top: -20px;
+}
+
+.card-stats .card-body .numbers .card-category {
+  color: #000;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.badge-up {
+  position: relative;
+  top: -16px;
+  right: 7px;
+}
+
+.badge-danger {
+  background-color: #FF7588;
+}
+.badge {
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.badge-danger {
+  color: #2A2E30;
+  background-color: #FF7588;
+}
+.badge-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+}
+.badge {
+  display: inline-block;
+  padding: 0.35em 0.4em;
+  font-size: 85%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.divider {
+  border-top: 1px solid #fff;
+  margin: 8px 0;
+  padding: 1px !important;
+  height: 0;
+}
+
+/*.sidebar[data-color="black"]::after, .off-canvas-sidebar[data-color="black"]::after {
+  background: #e6e5f2;
+
+}
+
+.sidebar .nav li > a, .off-canvas-sidebar .nav li > a {
+  color: #141212;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 20px;
+  
+}*/
+
+.navbar.navbar-transparent {
+  background-image: linear-gradient(to right, #82ba3b, #bb0058, #0097dc);
+  box-shadow: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar.navbar-transparent .nav-item .nav-link:not(.btn) {
+  color: #fff;
+}
+
+.sidebar-normal {
+  text-transform: capitalize;
+  font-size: 12px;
+  /*color: black !important; */
+  
+}
+
+.open-collapse {
+ background: linear-gradient(to right, #c33764, #1d2671);
+  
+}
+
+/*Sidebar*/
+.sidebar[data-color="black"]::after, .off-canvas-sidebar[data-color="black"]::after {
+  background: #2d3a6f;
+}
